@@ -926,8 +926,8 @@ void Ventana::on_boton_editar_clicked()
 
 void Ventana::acerca_de(){
     QMessageBox::about(this, tr("Acerca de la aplicacion"),
-                 tr("<b>Maya Legacy</b> aplicación escrito en lenguaje C++ con la finalidad de crear, editar y administrar la base de datos de un diccionario español/maya q'anjob'al"
-                    ". Esta protegida bajo la licencia propietaria CORP, autor: <b>Alexander</b><b>Mateo</b> a cargo de la empresa <b>SilexCorp</b> liceincia unica al propietario actual <b>Felipe</b> "
+                 tr("<b>Maya Legacy</b> aplicación de escrito en lenguaje C++ con la finalidad de crear, editar y administrar la base de datos de un diccionario (ejemplo: español/maya q'anjob'al)"
+                    ". Esta no tiene ninguna licencia, fue desarrollado bajo con fines didácticos, autor: <b>Alexander</b><b>Mateo</b> a cargo de la empresa <b>SilexCorp</b> el último usuario fue <b>Felipe</b> "
                     " Para mayor información visite nuestro sitio web: <b>  http://silexCorp.org</b>  o <b> http://leerparaaprender.com </b> SILEXCORP 2016 "));
 
 }
