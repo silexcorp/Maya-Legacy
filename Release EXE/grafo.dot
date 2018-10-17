@@ -1,0 +1,52 @@
+digraph grafo{
+	rank=same;
+	nodesep=0.5;
+	label="ARBOL DE PALABRAS"
+	bgcolor="white"
+	node [shape = record,color=skyblue, style=filled];
+	edge [color="skyblue", dir=fordware];
+rankdir = TD;
+n_744 [label = "<der> | <dat> ID: 744 \n LEX: miman |<izq>"];
+n_744:der -> n_842:dat;
+n_744:izq -> n_580:dat;
+n_580 [label = "<der> | <dat> ID: 580 \n LEX: tek' |<izq>"];
+n_580:der -> n_726:dat;
+n_580:izq -> n_370:dat;
+n_370 [label = "<der> | <dat> ID: 370 \n LEX: k'u |<izq>"];
+n_370:der -> n_443:dat;
+n_370:izq -> n_330:dat;
+n_330 [label = "<der> | <dat> ID: 330 \n LEX: ix |<izq>"];
+n_443 [label = "<der> | <dat> ID: 443 \n LEX: mul |<izq>"];
+n_726 [label = "<der> | <dat> ID: 726 \n LEX: jaqan |<izq>"];
+n_726:der -> n_736:dat;
+n_726:izq -> n_645:dat;
+n_645 [label = "<der> | <dat> ID: 645 \n LEX: itaj |<izq>"];
+n_736 [label = "<der> | <dat> ID: 736 \n LEX: mamin |<izq>"];
+n_842 [label = "<der> | <dat> ID: 842 \n LEX: q'ab'ej |<izq>"];
+n_842:der -> n_942:dat;
+n_842:izq -> n_762:dat;
+n_762 [label = "<der> | <dat> ID: 762 \n LEX: jolom |<izq>"];
+n_762:der -> n_815:dat;
+n_762:izq -> n_751:dat;
+n_751 [label = "<der> | <dat> ID: 751 \n LEX: lojej |<izq>"];
+n_751:der -> n_754:dat;
+n_751:izq -> n_747:dat;
+n_747 [label = "<der> | <dat> ID: 747 \n LEX: satej |<izq>"];
+n_754 [label = "<der> | <dat> ID: 754 \n LEX: taqin |<izq>"];
+n_815 [label = "<der> | <dat> ID: 815 \n LEX: q'anej |<izq>"];
+n_815:der -> n_825:dat;
+n_815:izq -> n_765:dat;
+n_765 [label = "<der> | <dat> ID: 765 \n LEX: xilej |<izq>"];
+n_825 [label = "<der> | <dat> ID: 825 \n LEX: txutx |<izq>"];
+n_942 [label = "<der> | <dat> ID: 942 \n LEX: sut'an |<izq>"];
+n_942:der -> n_981:dat;
+n_942:izq -> n_912:dat;
+n_912 [label = "<der> | <dat> ID: 912 \n LEX: tok'al |<izq>"];
+n_912:der -> n_940:dat;
+n_912:izq -> n_894:dat;
+n_894 [label = "<der> | <dat> ID: 894 \n LEX: tek'an |<izq>"];
+n_940 [label = "<der> | <dat> ID: 940 \n LEX: k'kotan |<izq>"];
+n_981 [label = "<der> | <dat> ID: 981 \n LEX: tz'ikin |<izq>"];
+n_981:der -> n_999:dat;
+n_999 [label = "<der> | <dat> ID: 999 \n LEX: kolq'ab |<izq>"];
+}
