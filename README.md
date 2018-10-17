@@ -2,7 +2,7 @@
 
 Maya Legacy is an dictionary creator, 
 
-It shows the use of data structures as chained lists, trees (AVL) and memory management, a good example for those who start object-oriented programming with C++ and the IDE Qt Creator
+It shows the use of data structures as chained lists, AVL tree and memory management, a good example for those who start object-oriented programming with C++ and the IDE Qt Creator
 
 
 Require Qt 5.5 or higher
